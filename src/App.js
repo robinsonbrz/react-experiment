@@ -1,5 +1,4 @@
 
-import logo from './logo.svg';
 import './App.css';
 // import Hello from './components/Hello';
 // import Counter from './components/Counter';
@@ -12,8 +11,7 @@ function App() {
     return ( 
         <div>
             <h1>Hello Robinson!</h1>
-
-            
+            <button>Click to Enter</button>
         </div>
     );
 }
