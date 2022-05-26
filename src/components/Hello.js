@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
 
-function Hello(){
+function Hello(props){
     return(
-        <h1>Hello Robinson!</h1>
+        <h1> { props.name }</h1>
     )
 
 
